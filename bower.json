@@ -1,0 +1,27 @@
+{
+    "name": "atatus-spa",
+    "version": "4.0.0",
+    "description": "Atatus Real User Monitoring and error tracking for single page applications",
+    "homepage": "https://www.atatus.com",
+    "author": {
+        "name": "Atatus",
+        "email": "hello@atatus.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:atatus/atatus-spa.git"
+    },
+    "main": "atatus-spa.min.js",
+    "keywords": [
+        "atatus",
+        "rum",
+        "spa",
+        "error",
+        "exception",
+        "tracking"
+    ],
+    "license": "MIT",
+    "ignore": {},
+    "dependencies": {},
+    "devDependencies": {}
+}
