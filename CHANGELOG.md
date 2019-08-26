@@ -1,6 +1,11 @@
 Changelog
 =========
 
+4.0.1
+-----
+
+-  Fixed typescript name issue.
+
 4.0.0
 -----
 
