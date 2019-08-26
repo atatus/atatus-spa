@@ -281,7 +281,7 @@ interface Atatus {
      * @param {String}  txnName - Transaction name
      * @param {Number}  duration - Time duration in milliseconds
      */
-    recordTransaction(txnName: string, duration: number): void;
+    recordTransaction(txnName: string, duration: number, success?: boolean): void;
 
 }
 

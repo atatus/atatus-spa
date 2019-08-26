@@ -6,15 +6,21 @@
 
 ## Getting Started
 
-### With NPM
+### Install
 
-Run `npm install atatus-spa --save`
+**Using yarn**
 
-### With Bower
+```
+yarn add atatus-spa
+```
 
-Run `bower install atatus-spa`
+**Using npm**
 
-## Usage
+```
+npm install atatus-spa --save
+```
+
+### Usage
 
 In your web page:
 
@@ -25,7 +31,7 @@ In your web page:
 </script>
 ```
 
-For more advanced options, refer [our documentation](https://www.atatus.com/docs).
+For more advanced options, refer [our documentation](https://docs.atatus.com/docs/browser-monitoring/customize-agent.html).
 
 
 ### CDN
@@ -39,12 +45,20 @@ Atatus is also available from our content delivery network:
 </script>
 ```
 
-### Module loaders (CommonJS)
+### CommonJS
 
-Atatus can be loaded using a module loader like Browserify or Webpack.
+To use Atatus with CommonJS imports:
 
 ```javascript
 var atatus = require('atatus-spa');
 atatus.config('YOUR_API_KEY').install();
 ```
 
+### ES2015 (ES6)
+
+To use Atatus with ES2015 (ES6) imports:
+
+```javascript
+import * as atatus from 'atatus-spa';
+atatus.config('YOUR_API_KEY').install();
+```
