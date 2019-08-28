@@ -1,6 +1,12 @@
 Changelog
 =========
 
+4.0.2
+-----
+
+-  Fixed slowest routes duration issue.
+-  Fixed slowest route queue limit.
+
 4.0.1
 -----
 
