@@ -1,6 +1,11 @@
 Changelog
 =========
 
+4.0.3
+-----
+
+-  Added support for ignoreUrls and whitelistUrls
+
 4.0.2
 -----
 
