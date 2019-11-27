@@ -1,6 +1,11 @@
 Changelog
 =========
 
+4.0.4
+-----
+
+-  Fixed issue in type script set user definition.
+
 4.0.3
 -----
 

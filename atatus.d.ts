@@ -131,11 +131,7 @@ interface Atatus {
      * @param {object}  user An object representing user data [optional]
      * @return {!Atatus} A self reference.
      */
-    setUser(user: {
-        id?: string;
-        email?: string;
-        name?: string;
-    }): Atatus;
+    setUser(id: string, email?: string, name?: string): Atatus;
 
     /**
      * Clear the user context, removing the user data that would be sent to Atatus.
@@ -214,7 +210,7 @@ interface Atatus {
      * @param  {string}  type Type of the breadcrumb can be info, error, warn.
      * @return {!Atatus} A self reference.
     */
-    leaveBreadcrumb(value: any, type: string): Atatus;
+    leaveBreadcrumb(value: any, type?: string): Atatus;
 
     /**
      * Specify a function that allows mutation of the data payload right before being sent to Atatus.
